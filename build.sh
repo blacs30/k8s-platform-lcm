@@ -10,4 +10,3 @@ ls -la dist
 
 docker build --build-arg VERSION=$TRAVIS_TAG -t arminc/lcm:$TRAVIS_TAG .
 docker tag arminc/lcm:$TRAVIS_TAG arminc/lcm
-docker push arminc/lcm
